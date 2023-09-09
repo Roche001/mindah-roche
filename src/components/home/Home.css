@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Domine:wght@500;600&family=Lobster&family=Yantramanav&display=swap");
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
+    url("../../images/packground.jpg");
+  width: 95dvw;
+  height: 80dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 6rem;
+  border-radius: 0.3rem;
+}
+.banner h2 {
+  color: #f1efe7;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.banner h4,
+p {
+  color: #f1efe7;
+}
+.loyout h4 {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.home-quot {
+  height: 7rem;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-quot p {
+  color: #020c1b;
+  font-family: "Domine", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}

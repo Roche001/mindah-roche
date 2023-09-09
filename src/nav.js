@@ -1,6 +1,6 @@
 export const bar = [
-  { title: "home", titleLink: "/" },
-  { title: "about", titleLink: "/About" },
-  { title: "services", titleLink: "/Services" },
-  { title: "portfolio", titleLink: "/Portfolio" },
+  { title: "Home", titleLink: "/" },
+  { title: "About", titleLink: "/About" },
+  { title: "Services", titleLink: "/Services" },
+  { title: "Portfolio", titleLink: "/Portfolio" },
 ];
