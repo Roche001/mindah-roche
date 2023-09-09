@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { text } from "../../nav";
 
 const Home = () => {
   return (
@@ -14,6 +15,26 @@ const Home = () => {
           “Helping you appreciate the power of using data to derive insights and
           make powerful decisions.”
         </p>
+      </div>
+      <div className="about">
+        <div className="about-h4">
+          <h4>About Me</h4>
+        </div>
+
+        <div className="about-container">
+          <div className="about-text">
+            {text.map((item, index) => {
+              return <p>{item.title}</p>;
+            })}
+          </div>
+          <div className="about-pic ">
+            <img
+              src="../../assets/mindah.png"
+              alt="Mindah-Roche"
+              loading="lazy"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
