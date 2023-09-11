@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Top.css";
 import { bar } from "../../nav";
-import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Top = () => {
@@ -15,9 +14,9 @@ const Top = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <Link to="/">
+        <a href="#Home">
           <img src="././assets/som1.png" alt="logo" loading="lazy" />
-        </Link>
+        </a>
       </div>
 
       <div className="top-icon" onClick={toggleMenu}>
@@ -30,9 +29,9 @@ const Top = () => {
           {bar.map((item, index) => {
             return (
               <div key={index} className="menu-one">
-                <Link to={item.titleLink} id="menu-two" onClick={handleClick}>
+                <a href={item.titleLink} onClick={handleClick}>
                   <h5>{item.title}</h5>
-                </Link>
+                </a>
               </div>
             );
           })}

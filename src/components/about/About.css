@@ -1,0 +1,40 @@
+.about {
+  background: #f1efe7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100dvw;
+  color: #020c1b;
+}
+.about-h4 h4 {
+  color: #66645c;
+  text-align: start;
+  margin-bottom: 1.5rem;
+}
+
+.about-container {
+  width: 65dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-text {
+  width: 70%;
+}
+.about-text p {
+  color: #020c1b;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.about-pic {
+  width: 30%;
+  height: 30rem;
+  margin: 1rem;
+}
+.about-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}

@@ -24,6 +24,9 @@
   border-radius: 0.5rem;
   border: #000000 1px solid;
 }
+.logo a {
+  text-decoration: none;
+}
 .side-bar {
   display: flex;
   align-items: center;
@@ -39,6 +42,9 @@
   transition: 400ms ease;
   text-decoration: none;
   font-family: "Bricolage Grotesque", sans-serif;
+}
+.menu-one a {
+  text-decoration: none;
 }
 #menu-two {
   text-decoration: none;
