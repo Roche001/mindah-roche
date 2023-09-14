@@ -1,3 +1,9 @@
+import { RiTwitterXFill } from "react-icons/ri";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiGithub } from "react-icons/si";
+import { MdOutlineMarkEmailUnread } from "react-icons/md";
+import { BsTelephone } from "react-icons/bs";
 export const bar = [
   { title: "Home", titleLink: "#Home" },
   { title: "About", titleLink: "#About" },
@@ -47,4 +53,24 @@ export const info = [
       "I use Machine Learning models to perform predictive analysis, which enables for making future performance predictions.",
     image: "../../assets/sev4.png",
   },
+];
+export const footer = [
+  {
+    title: <RiTwitterXFill />,
+    link: "https://x.com/RocheMindah?t=iZUy6lQ2Rom4XHSRg6Cxgw&s=09",
+  },
+  {
+    title: <AiFillInstagram />,
+    link: "https://instagram.com/rochemindah?igshid=MzMyNGUyNmU2YQ==",
+  },
+  { title: <FaLinkedinIn />, link: "https://www.linkedin.com/in/mindah-roche" },
+  {
+    title: <SiGithub />,
+    link: "https://github.com/mindah-roche/Mindah-Projects",
+  },
+];
+export const contact = [
+  { title: <MdOutlineMarkEmailUnread />, titleInfo: "rochemindah@gmail.com" },
+  { title: <BsTelephone />, titleInfo: "+254717842694" },
+  { title: <FaLinkedinIn />, titleInfo: "mindah-roche" },
 ];
