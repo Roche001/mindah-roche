@@ -7,6 +7,10 @@
 .port-img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
+  margin: 2rem;
+}
+.port-img img {
+  height: 20rem;
+  border: 2px solid #00000000;
 }
