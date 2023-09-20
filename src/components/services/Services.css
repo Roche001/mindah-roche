@@ -1,8 +1,14 @@
+.services-container {
+  background: #f1ecdc;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .services-about {
   width: 65dvw;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
+
+  background: #f1ecdc;
 }
 .services-text,
 .services-info,
